@@ -2421,12 +2421,12 @@ input, select, textarea {
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
-		padding: 0 1.5em;
-		line-height: 2.75em;
-		min-width: 9em;
+		padding: 0 1em;
+		line-height: 2em;
+		min-width: 5em;
 		text-align: center;
 		text-decoration: none;
-		font-weight: 600;
+		font-weight: 200;
 		letter-spacing: -0.025em;
 	}
 
@@ -2486,7 +2486,7 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+			width: 50%;
 		}
 
 		input[type="submit"].small,
@@ -2494,7 +2494,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.3em;
 		}
 
 /* Box */
