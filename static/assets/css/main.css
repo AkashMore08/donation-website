@@ -1968,7 +1968,7 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header.major h2 {
@@ -1978,7 +1978,7 @@ input, select, textarea {
 		header.major p {
 			position: relative;
 			border-top: solid 1px #e0e0e0;
-			padding: 1em 0 0 0;
+			padding: 0 0 0 0;
 			margin: 0;
 			top: -1em;
 			font-size: 1.5em;
@@ -2674,7 +2674,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/hospital_bed.jpeg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2752,6 +2752,13 @@ input, select, textarea {
 				.wrapper.style3 .button:hover {
 					color: #37c0fb !important;
 				}
+
+		.wrapper.style4{
+			background-color: #37c0fb;
+			bbackground-position: top left,						bottom left,					top left;
+			background-size: 100% 6em,						100% 6em,						auto;
+			background-repeat: no-repeat,						no-repeat,						repeat;
+		}
 
 /* CTA */
 
@@ -3310,7 +3317,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				width: 100%;
+				width: 50%;
 				display: block;
 			}
 
