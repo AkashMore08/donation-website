@@ -6,7 +6,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="./static/assets/css/main.css" />
-		<link rel="stylesheet" href="./static/assets/css/extra.css" />
 		<link rel="shortcut icon" href="{{ url_for('static', filename='logo-python.ico') }}">
 	</head>
 	<body class="is-preload">
@@ -29,7 +28,7 @@
 				<section id="banner">
 					<header>
 						<h2>Your little help can save Priyanka's life!<em> <a href=""></a></em></h2>
-						<h3>Total Estimate Treatment Cost is 40 Lakh so please donate as much as you can for Priyanka's healthy life</h3>
+						<h3>Total Estimated Treatment Cost is 40 Lakh, Please donate as much as you can for Priyanka's healthy life</h3>
 						<a class="button">Donate Using Below!</a>
 					</header>
 				</section>
@@ -38,15 +37,16 @@
 			<!-- Payment Information -->
 				<section class="wrapper style1">
 					<div class="container">
+						<!-- <h3>Prajakta Deshmane is Priyanka's Older sister, Please donate to her account using below methods</h3> -->
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a class="image left"><img src="./static/images/QR-prajakta.jpeg" alt="" /></a>
+									<a class="image left"><img src="./static/images/QR-prajakta1.jpeg" alt="" style="width: 115%;"/></a>
 									<div class="inner">
 										<h3>Donate through QR-Code and UPI ID</h3>
 										<img src="./static/images/UPI_logo.png" style="display: inline-block; width: 35%; padding: 0 0 7px 7px;">
 										<span > (Prajakta Deshmane)</span>
-										<h4>UPI ID: <span style="cursor: pointer; padding-right: 5px; display: inline; font-size: 15px !important;">deshmaneprajakta07-1@icici</span></h4>
+										<h4>UPI ID: <span style="cursor: pointer; display: inline;">deshmaneprajakta07-1@icici</span></h4>
 <!-- 										<button onclick="copyUpiid()">Copy UPI ID</button>
 										<br />
 	
@@ -58,7 +58,7 @@
 											}
 										</script> -->
 
-										<p>Please copy above UPI ID and Paste in your UPI apps   OR  scan QR-code</p>
+										<p>Scan QR-Code with any UPI App OR Copy above UPI ID and Paste in your UPI Payments App</p>
 									</div>
 								</div>
 							</section>
@@ -66,13 +66,13 @@
 
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a class="image left"><img src="./static/images/QR-prajakta.jpeg" alt="" /></a>
+									<a class="image left"><img src="./static/images/UPI-Apps2.svg" alt="" style="width: 110%;" /></a>
 									<div class="inner">
 										<h3> Donate using Mobile Number </h3>
-										<img src="./static/images/UPI-apps.png" style="display: inline-block; width: 35%; padding: 0 0 7px 7px;">
+										<!-- <img src="./static/images/UPI-apps.png" style="display: inline-block; width: 30%; padding: 0 0 7px 7px;"> -->
 										<span > (Prajakta Deshmane)</span>
                         				</a>
-                        				<h3>Mobile No: 8104889802</h3>
+                        				<h4>Mobile No: <span style="cursor: pointer"> 8104889802 </span></h4>
 <!--                         				<button onclick="copyMobile()">Copy</button>
 										<br />
 										<script>
@@ -83,7 +83,7 @@
 												alert("Mobile No Copied: " + "8104889802");
 										}
 										</script> -->
-										<p>Please copy above Mobile No and Paste in your UPI apps  OR  scan QR-code</p>
+										<p>Copy above Mobile No and Paste in your UPI Payments App  <!-- OR  scan QR-code --></p>
 
 									</div>
 								</div>
@@ -96,8 +96,8 @@
                     				<div _ngcontent-ksm-c55="" 
                     				class="col-lg-4 col-md-4 col-xs-12 padd-2">
                     				<div  class="rightside">
-                    				<h4><strong>Bank Name:</strong> ICICI Bank</br>
-                    					Account Name: Prajakta Deshmane</br>
+                    				<h4><strong>Bank Name:</strong><span style="cursor: pointer"> ICICI Bank </span></br>
+                    					Account Name: <span style="cursor: pointer"> Prajakta Deshmane</span></br>
 <!--                     					<button  onclick="copyAccountname()">Copy</button>
 										<br />
 										<script>
@@ -112,7 +112,7 @@
 										}
 										</script> -->
 
-                    				<strong >Account Number:</strong> 188505001225</br>
+                    				<strong >Account Number:</strong><span style="cursor: pointer"> 188505001225</span></br>
 
 <!--                     					<button onclick="copyAccountnumber()">Copy</button>
 										<br />
@@ -127,7 +127,7 @@
 										</script> -->
                     				
 
-                    				<strong>IFSC Code:</strong> ICIC0001885 </h4>
+                    				<strong>IFSC Code:</strong><span style="cursor: pointer"> ICIC0001885</span></h4>
 <!--                     					<button onclick="copyIfsccode()">Copy</button>
 										<br />
 	
@@ -140,16 +140,16 @@
 										}
 										</script> -->
 
-									<p>Please copy above Netbanking details</p>
+									<!-- <p>Copy above Netbanking details</p> -->
                     		
 									</div>
 								</div>
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="#" class="image left"><img src="./static/images/support4.jpg" alt="" /></a>
+									<a class="image left"><!-- </br> --><img src="./static/images/support4.jpg" alt="" style="width: 110%;" /></a>
 									<div class="inner">
-										<h3>It's not how much we give but how much love we put into giving.</h3>
+										<h3><!-- </br> -->It's not how much we give but how much love we put into giving.</h3>
 										<p>Mother Teresa</p>
 									</div>
 								</div>
@@ -158,32 +158,37 @@
 					</div>
 				</section>
 
-
-
 			<!-- Highlights -->
 				<section class="wrapper style1">
 					<div class="container">
+						<h3>Visiting website on mobile and want to donate using QR-code?</br>Please follow below steps:</h3>
 						<div class="row gtr-200">
+							
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
-									<h3>Using QR-code on mobile: Step1</h3>
-									<i class="icon solid major fa-paper-plane"></i>
-									<p>If your visiting this website using mobile then, go to QR-code and take a screenshot of QR-code.</p>
+									<h3>Step1</h3>
+									<!-- <i class="icon solid major fa-paper-plane"></i> -->
+									<!-- <i class="icon solid major fa-pencil-alt"></i> -->
+									<img src="./static/images/step1.jpg" style="width: 80%"></img>
+									<p></br>Go to QR-code and take a screenshot of QR-code.</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
 									
 									<h3>Step2</h3>
-									<i class="icon solid major fa-pencil-alt"></i>
-									<p>Open your UPI payment app and go to scan QR-code option and select option upload/import the screenshot from gallery.</p>
+									<!-- <i class="icon solid major fa-pencil-alt"></i> -->
+									<img src="./static/images/step2.jpg" style="width: 100%"></img>
+									<p></br>Open your UPI payment app and go to scan QR-code option and select option upload/scan from gallery.</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
 									<h3>Step3</h3>
-									<i class="icon solid major fa-wrench"></i>
-									<p>Make a donation to Help !</p>
+									<!-- <i class="icon solid major fa-wrench"></i> -->
+									<!-- <i class="icon solid major fa-pencil-alt"></i> -->
+									<img src="./static/images/step3.jpg" style="width: 80%"></img>
+									<p></br>Select the screenshot of QR-code and Make a donation to Help !</p>
 								</div>
 							</section>
 						</div>
@@ -206,6 +211,7 @@
 											<p>Name: Prajakta Deshmane</br>
 											   Age:  24</br>
 											   Contact: 8104889802</br>
+											   Relation: Priyanka's elder sister</br>
 											   Lives: Nerul, Navi Mumbai</br>
 											</p>
 											<footer>
@@ -235,7 +241,7 @@
 											   <span class="image featured"><img src="./static/images/medical-certificate.jpeg" alt="" /></span>
 											   Cost Certificate:</br>
 											   <span class="image featured"><img src="./static/images/cost-certificate.jpeg" alt="" /></span>
-											   This cost estimation only include the 8 months of chemotherapy not the bone marrow transplant which will be nessary in mere future</br>
+											   This cost estimation only include the 8 months of chemotherapy not the bone marrow transplant which will be necessary in mere future</br>
 											</p>
 											</ul>
 											<footer>
@@ -252,7 +258,7 @@
 
 										<article>
 											<header>
-												<h2>Story of Priyanka and her Family</h2>
+												<h2>Story<!--  of Priyanka and her Family --></h2>
 												<p></p>
 											</header>
 
@@ -261,12 +267,12 @@
 											<p></p>
 
 											<h3></h3>
-											<p>It's with a hopeful heart that we're requesting you to donate for the treatment of Priyanka (Age-21) who is diagnosed with blood cancer (Acute Lymphoblastic leukemia). She is under treatement at Tata Memorial Hospital, Parel.
+											<p>It's with a hopeful heart that we're requesting you to donate for the treatment of Priyanka Deshmane (Age-21) who is diagnosed with blood cancer (Acute Lymphoblastic leukemia). She is under treatement at Tata Memorial Hospital, Parel.
 											Her family have been taking care of her and spent all they had. Doctors advised her for a longer treatment and may need the Bone Marrow Transplant which may cost upto 40-45 lakh rupees. we are running out of fund.</br></p>
 
 											<p>Priyanka's father suffered brainstroke 2 years ago and still under recovery. Priyanka's sister is the only earner of the family and can barely afford living. As it goes without saying that they're financially bombed and the family is broken in and out. Cancer is very painfull for both patient and the family also the treatment is financially and mentally draining. </br></p>
 
-											<p>Your small donation can tremendously help us for the treatment. I am strongly convinced that you will come to our aid and help Priyanka to get a healthy life again. She has already planned and dreamt of having a successful career as CMA but during this tough times she only hopes to be alive to make her dreams come true.s</p>
+											<p>Your small donation can tremendously help us for the treatment. I am strongly convinced that you will come to our aid and help Priyanka to get a healthy life again. She has already planned and dreamt of having a successful career as CMA but during this tough times she only hopes to be alive to make her dreams come true.</p>
 										</article>
 
 								</div>
@@ -275,14 +281,6 @@
 					</div>
 				</section>
 
-			<!-- CTA -->
-<!-- 				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Please fill up the below form so we can track the donations</h2>
-						</header>
-					</div>
-				</section> -->
 
 			<!-- Footer -->
 				<div id="footer">
@@ -290,7 +288,11 @@
 						<div class="row">
 							<section class="col-3 col-6-narrower col-12-mobilep">
 								<h3>Contact Details</h3>
-									<h5>Phone:- +91 7021914547 (Akash)</h5>
+									<h4>Phone:</h4>
+								<h5>Prajakta: +91 8104889802</br>
+									Akash: 	  +91 7021914547</br>
+									Shubham:  +91 9324373068</br>
+									Shree:    +91 8928311421</h5>
 							</section>
 							<!-- <section class="col-3 col-6-narrower col-12-mobilep">
 								<h3>More Links to Stuff</h3>
@@ -309,13 +311,13 @@
 								<form action="submit_form" method="post">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobilep">
-											<input name="name" type="text" name="name" id="name" placeholder="Name" />
+											<input name="name" type="text" name="name" id="name" placeholder="Your Name" />
 										</div>
 										<div class="col-6 col-12-mobilep">
-											<input name="phone" type="text" name="Phone" id="phone" placeholder="Phone No" />
+											<input name="phone" type="text" name="Phone" id="phone" placeholder="Your Phone No" />
 										</div>
 										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+											<textarea name="message" id="message" placeholder="Write a message here" rows="5"></textarea>
 										</div>
 										<div class="col-12">
 											<ul class="actions">
